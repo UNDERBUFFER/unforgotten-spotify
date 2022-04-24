@@ -1,0 +1,408 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(18, 18, 18);
+    margin: 0;
+    font-size: 16px;
+    color: gainsboro;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    height: 960px;
+    margin: auto;
+    border: 1px solid gray;
+}
+
+.left-menu {
+    height: 85%;
+    width: 20%;
+    display: inline-block;
+    margin: 0;
+    background-color: black;
+}
+
+.right-area {
+    height: 85%;
+    width: 80%;
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+}
+
+.settings {
+    height: 15%;
+    width: 100%;
+    border-top: 1px solid gray;
+}
+
+.music {
+    height: 80%;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 11%, rgba(103,35,108,1) 100%);
+}
+
+.advertising {
+    height: 20%;
+    width: 100%;
+    border-top: 1px solid gray;
+}
+
+.main {
+    height: 25%;
+    width: 100%;
+}
+
+.moves {
+    height: 20%;
+    width: 100%;
+}
+
+.playlists {
+    height: 25%;
+    width: 100%;
+    border-top: 1px solid gray;
+    overflow-y: scroll;
+}
+
+.playlists::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.sticker {
+    display: block;
+    height: 30%;
+    width: 100%;
+}
+
+.poster {
+    margin: auto;
+    position: relative;
+    background-color: black;
+    width: 80%;
+    height: 90%;
+    top: 5%;
+}
+
+.link {
+    width: 25px;
+    height: 25px;
+    margin-left: -10%;
+}
+
+.signature {
+    margin-left: 10%;
+}
+
+ul {
+    font-size: 20px;
+    margin: 0 0;
+}
+
+ul li {
+    list-style-type: none;
+    line-height: 65px;
+}
+
+.playlists ul li .signature {
+    font-size: 18px;
+    margin-left: -10%;
+}
+
+.header {
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(270deg, rgb(36, 32, 103) 1%, rgba(103,35,108,1) 100%);;
+}
+
+.position-item {
+    margin-left: 5%;
+    margin-top: 2.5%;
+    display: inline-block;
+    width: 20%;
+    height: 75%;
+    background: rgb(129,125,190);
+    background: linear-gradient(243deg, rgba(129,125,190,1) 12%, rgba(157,16,144,1) 31%, rgba(14,8,80,1) 84%);
+    box-shadow: 10px 5px 5px black;
+}
+
+.position-information {
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 6.5%;
+    width: 70%;
+    height: 60%;
+}
+
+
+.header ul li {
+    line-height: normal;
+    margin-left: -5%;
+    color: white;
+    font-weight: bold;
+}
+
+.header ul {
+    padding: 0%;
+}
+
+.chapter {
+    font-size: 70px;
+}
+
+
+.top-control {
+    width: 100%;
+    height: 15%;
+}
+
+.left-buttons {
+    display: inline-block;
+    height: 100%;
+    width: 25%;
+    vertical-align: top;
+}
+
+.right-buttons {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 30%;
+    left: 45%;
+}
+
+.left-buttons * {
+    position: relative;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.pause {
+    font-size: 43px;
+    top: 15%;
+    left: 15%;
+    width: 30%;
+    height: 70%;
+    background-color: rgb(46, 204, 113);
+}
+
+.download {
+    font-size: 28px;
+    color: white;
+    top: 10%;
+    left: 30%;
+    width: 15%;
+    height: 40%;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.right-buttons * {
+    position: relative;
+    display: inline-block;
+}
+
+.right-buttons img {
+    top: 25%;
+    width: 30px;
+}
+
+.right-buttons select {
+    top: 15%;
+    left: 5%;
+    height: 40%;
+    width: 65%;
+    color: gainsboro;
+    background-color: rgb(129, 125, 190);
+    font-size: 16px;
+}
+
+.settings * {
+    display: inline-block;
+}
+
+.song-info, .sound {
+    vertical-align: top;
+    display: inline-block;
+    height: 100%;
+    width: 20%;
+}
+
+.song-info * {
+    margin-left: 5%;
+}
+
+.song-name {
+    color: white;
+    font-size: 25px;
+    margin-top: 15%;
+}
+
+.song-players {
+    font-size: 13px;
+}
+
+.song-info img {
+    position: relative;
+    width: 25px;
+    top: -10%;
+}
+
+.player {
+    width: 60%;
+    height: 100%;
+}
+
+.play-buttons {
+    width: 100%;
+    height: 50%;
+}
+
+.player-panel {
+    position: relative;
+    width: 70%;
+    top: 10%;
+    height: 30%;
+    left: 15%;
+}
+
+.player-panel::-webkit-media-controls-panel {
+    background-color: gainsboro;
+}
+
+.play-buttons * {
+    background-color: white;
+    border-radius: 50%;
+    height: 70%;
+    width: 7%;
+    font-size: 28px;
+    position: relative;
+    top: 15%;
+    margin-left: 2%;
+    margin-top: 0.5%;
+}
+
+.play-buttons *:first-child {
+    margin-left: 38%;
+}
+
+.sound * {
+    display: inline-block;
+    position: relative;
+    top: 40%;
+}
+
+.sound img {
+    width: 25px;
+    height: 25px;
+    margin-left: 3%;
+}
+
+.sound input {
+    top: 37%;
+    width: 30%;
+}
+
+.list {
+    position: relative;
+    left: 5%;
+    width: 90%;
+    height: 45%;
+    overflow-y: scroll;
+}
+
+.list::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.row {
+    margin-top: 2%;
+    height: 25%;
+    width: 100%;
+    font-size: 21px;
+}
+
+.dignity {
+    margin-top: 0%;
+    line-height: 50px;
+    font-size: 17px;
+    border-bottom: 1px solid gray;
+}
+
+.dignity * {
+    padding-top: 2%;
+}
+
+.column {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+}
+
+.number {
+    width: 5%;
+    font-size: 25px;
+}
+
+.designation {
+    width: 35%;
+}
+
+.album {
+    width: 25%;
+}
+
+.add-date {
+    width: 20%;
+}
+
+.time {
+    width: 15%;
+}
+
+.dignity .time {
+    padding-left: 10%;
+    font-size: 25px;
+}
+
+.designation img {
+    height: 100%;
+    width: 25%;
+    display: inline-block;
+}
+
+.designation div:first-child {
+    color: white;
+}
+
+.song-element {
+    height: 100%;
+    width: 75%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.song-element div {
+    height: 50%;
+    width: 100%;
+    padding-left: 10%;
+}
+
+.classic {
+    padding-top: 2.5%;
+}
+
+.time img {
+    width: 30px;
+}
+
+.time span {
+    vertical-align: top;
+    line-height: 30px;
+    padding-left: 25%;
+}
